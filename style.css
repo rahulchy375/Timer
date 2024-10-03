@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .container{
+        width: 15%;
+        text-align: center;
+        border: 5px solid rgb(170, 0, 255);
+        background-color: rgb(43, 37, 87);
+        padding: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+
+        & .timeValue{
+            padding: 20px 0px;
+            font-size: 22px;
+            color: white;
+        }
+
+        & .btnDiv{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            & .btn{
+            margin-bottom: 10px;
+            padding: 5px 0px;
+            width: 100%;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            font-size: 17px;
+            color: rgb(141, 5, 252);
+            background-color: orange;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
+            }
+        }
+
+        & .firstDiv{
+            margin-right: 10px;
+        }
+
+        & .gettingDiv{
+            padding: 10px 0px;
+            font-size: 17px;
+            color: white;
+        }
+    }
+}
